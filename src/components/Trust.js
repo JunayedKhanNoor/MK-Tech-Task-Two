@@ -1,4 +1,5 @@
 import React from "react";
+import h1 from "../asets/hasina.jpg";
 import {
   FcSupport,
   FcComboChart,
@@ -8,9 +9,9 @@ import {
   FcBullish,
 } from "react-icons/fc";
 import { ImMakeGroup } from "react-icons/im";
-import ceo from '../asets/ceo.jpg'
-import ac from '../asets/account.jpg'
-import en from '../asets/engineer.jpg'
+import ceo from "../asets/ceo.jpg";
+import ac from "../asets/account.jpg";
+import en from "../asets/engineer.jpg";
 
 const Trust = () => {
   return (
@@ -39,11 +40,21 @@ const Trust = () => {
         </div>
       </div>
 
+      <div class="hero bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src={h1} class="max-w-sm rounded-lg shadow-2xl" alt="mujib" />
+          <div>
+            <h1 class="text-5xl font-bold">Visionary Leader of Bangladesh Seikh Hasina!</h1>
+
+            <button class="btn btn-accent my-6 px-12">Mujib Daughter</button>
+          </div>
+        </div>
+      </div>
+
       <div className="md:max-w-7xl mx-auto my-24">
-      <h1 className="text-2xl md:text-4xl text-center font-bold">Qualified Staff Of Engineers</h1>
+        <h1 className="text-2xl md:text-4xl text-center font-bold">Qualified Staff Of Engineers</h1>
         <p className="text-center text-xl mt-4">Expert Members</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center mt-12">
-        
           <div>
             <div class="card w-96 bg-base-100 shadow-xl">
               <figure>
@@ -121,6 +132,187 @@ const Trust = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="md:max-w-7xl mx-auto my-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center mt-12">
+          <ul class="menu bg-base-100 w-56 p-2 rounded-box">
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                  />
+                </svg>
+                Capital Profile
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Mission and Vision
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+                Career
+              </a>
+            </li>
+          </ul>
+          <ul class="menu bg-base-100 w-56 p-2 rounded-box">
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                  />
+                </svg>
+                Item 2
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Item 1
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+                Item 3
+              </a>
+            </li>
+          </ul>
+          <ul class="menu bg-base-100 w-56 p-2 rounded-box">
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                  />
+                </svg>
+                Item 2
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Item 1
+              </a>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+                Item 3
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </>

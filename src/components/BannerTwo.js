@@ -1,10 +1,11 @@
 import React from "react";
 import m11 from "../asets/download.png";
+
 const BannerTwo = () => {
   return (
     <div>
-      <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content flex-col lg:flex-row">
+      <div class="hero bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={m11} class="max-w-sm rounded-lg shadow-2xl" alt="mujib" />
           <div>
             <h1 class="text-3xl font-bold">

@@ -1,7 +1,8 @@
 import React from 'react';
 import BannerOne from './BannerOne';
 import BannerTwo from './BannerTwo';
-import Stat from './Stat';
+import Footer from './Footer';
+
 import Trust from './Trust';
 
 const Home = () => {
@@ -10,8 +11,8 @@ const Home = () => {
             <hr class=" bg-red-600 py-1"></hr> 
             <BannerOne></BannerOne>
             <BannerTwo></BannerTwo>
-            <Stat></Stat>
             <Trust></Trust>
+            <Footer></Footer>
         </div>
     );
 };
